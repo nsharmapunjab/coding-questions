@@ -15,11 +15,11 @@ public class FindLongestWord {
 
 	public static String findLongestWord(String[] strArray) {
 
-		// System.out.println("Given String Array : " +
-		// Arrays.toString(strArray));
+		System.out.println("Given String Array : " +
+		Arrays.toString(strArray));
 		Arrays.sort(strArray, new StringLengthComparator());
-		// System.out
-		// .println("Sorted String Array : " + Arrays.toString(strArray));
+		System.out
+		.println("Sorted String Array : " + Arrays.toString(strArray));
 
 		String longestString = "";
 		boolean lastPartCheck = false;

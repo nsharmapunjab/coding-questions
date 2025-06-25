@@ -41,6 +41,8 @@ public class FindLongestSubString {
 
 		String result = "";
 		if (longest > 0) {
+			System.out.println("Longest : " + longest);
+			System.out.println("LongestEnd : " + longestEnd);
 			result = str1.substring(longestEnd - longest, longestEnd);
 		}
 
