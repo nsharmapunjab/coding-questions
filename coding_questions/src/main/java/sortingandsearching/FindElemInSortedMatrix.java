@@ -1,5 +1,7 @@
 package sortingandsearching;
 
+import java.util.Arrays;
+
 public class FindElemInSortedMatrix {
 
 	public static void main(String[] args) {
@@ -12,6 +14,8 @@ public class FindElemInSortedMatrix {
 				k++;
 			}
 		}
+
+		System.out.println("Matrix : " + Arrays.deepToString(matrix));
 
 		System.out.println("Find elem in matrix : "
 				+ findElem(matrix, 11, 4, 3));
