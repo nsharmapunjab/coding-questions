@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/coding_questions/src/main/java/sdetinterviewquestions4/HorizontalDistanceCounter.java" />
+      <file url="file://$PROJECT_DIR$/coding_questions/src/main/java/sdetinterviewquestions3/ImageDiffValidator.java" />
+      <file url="file://$PROJECT_DIR$/coding_questions/src/main/java/sdetinterviewquestions3/LatencyPercentileReporter.java" />
+      <file url="file://$PROJECT_DIR$/coding_questions/src/main/java/sdetinterviewquestions3/TestScheduler.java" />
+      <file url="file://$PROJECT_DIR$/coding_questions/src/main/java/stackqueue/SetOfStacks.java" />
+    </excludeFromCompile>
+  </component>
+</project>

@@ -18,7 +18,7 @@ public class FindElemInSortedMatrix {
 		System.out.println("Matrix : " + Arrays.deepToString(matrix));
 
 		System.out.println("Find elem in matrix : "
-				+ findElem(matrix, 11, 4, 3));
+				+ findElem(matrix, 2, 4, 3));
 	}
 
 	public static boolean findElem(int[][] matrix, int elem, int m, int n) {

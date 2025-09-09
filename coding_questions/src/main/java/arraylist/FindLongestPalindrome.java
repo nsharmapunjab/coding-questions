@@ -4,9 +4,10 @@ public class FindLongestPalindrome {
 
 	public static void main(String[] args) {
 
-		System.out.println(longestPalindromeString("snitina"));
-		System.out.println(longestPalindromeString("31214"));
-		System.out.println(longestPalindromeString("512216"));
+//		System.out.println(longestPalindromeString("snitina"));
+//		System.out.println(longestPalindromeString("31214"));
+//		System.out.println(longestPalindromeString("512216"));
+		System.out.println("isPlaindome : " + isPlaindrome("snitina"));
 	}
 
 	public static String longestPalindromeString(String s) {
@@ -27,6 +28,26 @@ public class FindLongestPalindrome {
 			}
 		}
 		return longest;
+	}
+
+	static public boolean isPlaindrome(String s) {
+
+		System.out.println(s);
+		s = s.toLowerCase().replaceAll("[^a-zA-Z0-9]","");
+		int left=0;
+		int right=s.length()-1;
+
+		while(left < right) {
+			if (s.charAt(left) != s.charAt(right)) {
+				return false;
+			}
+			left++;
+			right--;
+		}
+		System.out.println(s);
+
+
+		return true;
 	}
 
 	static public String intermediatePalindrome(String s, int left, int right) {
